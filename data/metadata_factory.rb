@@ -3,9 +3,9 @@ begin
   require_relative '../model/provider.rb'
 end
 
-# Its to central gateway for all metadata required to bussiness logic to function
+# Central gateway for all metadata required to bussiness logic to function
 class MetadataFactory
-  # Hardcoded for example purposes, but it can be configs/database based
+  # Hardcoded for example purposes, but it can (and should) be configs/database based
   Package::S = Package.new :S, 'Small sized package'
   Package::M = Package.new :M, 'Medium sized package'
   Package::L = Package.new :L, 'Large package'
