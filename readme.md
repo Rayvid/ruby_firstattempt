@@ -10,4 +10,4 @@ ruby ./test.rb [input file]
 
 TEST
 ============================
-ruby .\test_of_the_test.rb
+ruby ./test_of_the_test.rb
